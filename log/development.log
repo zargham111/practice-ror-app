@@ -1,0 +1,2519 @@
+Started GET "/" for ::1 at 2024-11-01 17:58:37 +0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+):
+  
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.8.6) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.8.6) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.8.6) lib/active_record/migration.rb:648:in `connection'
+activerecord (7.0.8.6) lib/active_record/migration.rb:643:in `build_watcher'
+activerecord (7.0.8.6) lib/active_record/migration.rb:625:in `block in call'
+activerecord (7.0.8.6) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.6) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.10) lib/rack/method_override.rb:24:in `call'
+rack (2.2.10) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.10) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.9) lib/puma/configuration.rb:252:in `call'
+puma (5.6.9) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.9) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.9) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.9) lib/puma/server.rb:443:in `process_client'
+puma (5.6.9) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2024-11-01 18:00:41 +0500
+  
+ActiveRecord::ConnectionNotEstablished (connection to server on socket "/tmp/.s.PGSQL.5432" failed: No such file or directory
+	Is the server running locally and accepting connections on that socket?
+):
+  
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:87:in `rescue in new_client'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.8.6) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.8.6) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.8.6) lib/active_record/migration.rb:648:in `connection'
+activerecord (7.0.8.6) lib/active_record/migration.rb:643:in `build_watcher'
+activerecord (7.0.8.6) lib/active_record/migration.rb:625:in `block in call'
+activerecord (7.0.8.6) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.6) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.10) lib/rack/method_override.rb:24:in `call'
+rack (2.2.10) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.10) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.9) lib/puma/configuration.rb:252:in `call'
+puma (5.6.9) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.9) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.9) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.9) lib/puma/server.rb:443:in `process_client'
+puma (5.6.9) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:12:37 +0500
+  
+ActiveRecord::NoDatabaseError (We could not find your database: uberClone_development. Which can be found in the database configuration file located at config/database.yml.
+
+To resolve this issue:
+
+- Did you create the database for this app, or delete it? You may need to create your database.
+- Has the database name changed? Check your database.yml config has the correct database name.
+
+To create your database, run:
+
+        bin/rails db:create
+):
+  
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:81:in `rescue in new_client'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:77:in `new_client'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/postgresql_adapter.rb:37:in `postgresql_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `public_send'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:656:in `new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:700:in `checkout_new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:679:in `try_to_checkout_new_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:640:in `acquire_connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:341:in `checkout'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `connection'
+activerecord (7.0.8.6) lib/active_record/connection_adapters/abstract/connection_handler.rb:211:in `retrieve_connection'
+activerecord (7.0.8.6) lib/active_record/connection_handling.rb:313:in `retrieve_connection'
+activerecord (7.0.8.6) lib/active_record/connection_handling.rb:280:in `connection'
+activerecord (7.0.8.6) lib/active_record/migration.rb:648:in `connection'
+activerecord (7.0.8.6) lib/active_record/migration.rb:643:in `build_watcher'
+activerecord (7.0.8.6) lib/active_record/migration.rb:625:in `block in call'
+activerecord (7.0.8.6) lib/active_record/migration.rb:624:in `synchronize'
+activerecord (7.0.8.6) lib/active_record/migration.rb:624:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.10) lib/rack/method_override.rb:24:in `call'
+rack (2.2.10) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.10) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.9) lib/puma/configuration.rb:252:in `call'
+puma (5.6.9) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.9) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.9) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.9) lib/puma/server.rb:443:in `process_client'
+puma (5.6.9) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/rails/actions" for 127.0.0.1 at 2024-11-01 18:12:47 +0500
+  [1m[35m (289.0ms)[0m  [1m[35mCREATE DATABASE "uberClone_development" ENCODING = 'unicode'[0m
+  [1m[35m (175.5ms)[0m  [1m[35mCREATE DATABASE "uberClone_test" ENCODING = 'unicode'[0m
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:12:48 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 284)
+Completed 200 OK in 14ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2858)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:36:28 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/railties-7.0.8.6/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 459)
+Completed 200 OK in 14ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:42:56 +0500
+  
+AbstractController::ActionNotFound (The action 'homes' could not be found for PagesController):
+  
+actionpack (7.0.8.6) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.8.6) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.8.6) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.8.6) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.8.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.8.6) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.8.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.8.6) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.8.6) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.8.6) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.10) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.10) lib/rack/etag.rb:27:in `call'
+rack (2.2.10) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.10) lib/rack/head.rb:12:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.10) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.10) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.8.6) lib/active_record/migration.rb:638:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.8.6) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/show_exceptions.rb:29:in `call'
+railties (7.0.8.6) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.8.6) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.8.6) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.5.2) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.10) lib/rack/method_override.rb:24:in `call'
+rack (2.2.10) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.8.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.10) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.8.6) lib/action_dispatch/middleware/host_authorization.rb:138:in `call'
+railties (7.0.8.6) lib/rails/engine.rb:530:in `call'
+puma (5.6.9) lib/puma/configuration.rb:252:in `call'
+puma (5.6.9) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.9) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.9) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.9) lib/puma/server.rb:443:in `process_client'
+puma (5.6.9) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:43:12 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 2261.0ms | Allocations: 119306)
+Completed 200 OK in 2267ms (Views: 2263.7ms | ActiveRecord: 0.0ms | Allocations: 121279)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:44:43 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 6041)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 6840)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:47:04 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 5991)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 6788)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:48:36 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 7140)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 7937)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:49:35 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 7173)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.0ms | Allocations: 7969)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:50:05 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 31.9ms | Allocations: 7165)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms | Allocations: 7963)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:51:07 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 7158)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 7953)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:56:56 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 92)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 7166)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms | Allocations: 7962)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:57:39 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1128)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1218)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2014)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class = "w-full min-h-[100vh] bg-indigo-500 flex flex-col items-center pt-16">
+  <h1 class="font-bold text-6xl">UBER</h1>
+  <p class = "text-lg">A ride worth remembering</p>
+  <%= link_to "Sign up as User", "#", class = "bg-blue-500 text-lg p-2 rounded-lg" %>
+</div>
+
+):
+1:    <div class = "w-full min-h-[100vh] bg-indigo-500 flex flex-col items-center pt-16">
+2:      <h1 class="font-bold text-6xl">UBER</h1>
+3:      <p class = "text-lg">A ride worth remembering</p>
+4:      <%= link_to "Sign up as User", "#", class = "bg-blue-500 text-lg p-2 rounded-lg" %>
+5:    </div>
+  
+app/views/pages/home.html.erb:4: syntax error, unexpected '='
+app/views/pages/home.html.erb:4: syntax error, unexpected '='
+app/views/pages/home.html.erb:4: syntax error, unexpected '='
+app/views/pages/home.html.erb:4: syntax error, unexpected '='
+Started GET "/" for 127.0.0.1 at 2024-11-01 18:58:59 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 6201)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 6995)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 19:03:58 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 7299)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 8093)
+
+
+  [1m[35m (7.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (45.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateCustomers (20241101141857)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (46.2ms)[0m  [1m[35mCREATE TABLE "customers" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_customers_on_email" ON "customers" ("email")[0m
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_customers_on_reset_password_token" ON "customers" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20241101141857"]]
+  [1m[36mTRANSACTION (41.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to DeviseCreateDrivers (20241101141923)
+  [1m[36mTRANSACTION (40.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "drivers" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp(6), "remember_created_at" timestamp(6), "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_drivers_on_email" ON "drivers" ("email")[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_drivers_on_reset_password_token" ON "drivers" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20241101141923"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2024-11-01 14:19:52.006114"], ["updated_at", "2024-11-01 14:19:52.006114"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2024-11-01 19:20:18 +0500
+  
+NoMethodError (undefined method `devise_for' for #<ActionDispatch::Routing::Mapper:0x0000000106861148 @set=#<ActionDispatch::Routing::RouteSet:0x000000010559cee0>, @draw_paths=[#<Pathname:/Users/softaims/Documents/uberClone/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x0000000105ca6df8 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x0000000105394828 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2024-11-01 19:20:44 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 455)
+  Rendered layout layouts/application.html.erb (Duration: 242.4ms | Allocations: 56134)
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms | Allocations: 60460)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_alerts  with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/softaims/Documents/uberClone/app/views"
+  * "/Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views"
+  * "/Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/turbo-rails-2.0.11/app/views"
+  * "/Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8.6/app/views"
+  * "/Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8.6/app/views"
+):
+    12:   </head>
+    13: 
+    14:   <body>
+    15:   <%= render "layouts/alerts "%>
+    16:       <%= yield %>
+    17:   </body>
+    18: </html>
+  
+app/views/layouts/application.html.erb:15
+Started GET "/" for 127.0.0.1 at 2024-11-01 19:22:03 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 215)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 158)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6492)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 7357)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-01 19:24:35 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 289)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 6459)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 7274)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-01 19:24:36 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 222)
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 567)
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 15.2ms | Allocations: 4335)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 9942)
+Completed 200 OK in 47ms (Views: 30.3ms | ActiveRecord: 4.1ms | Allocations: 16772)
+
+
+Started GET "/drivers/sign_up" for 127.0.0.1 at 2024-11-01 19:24:44 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 120)
+  Rendered /Users/softaims/.rbenv/versions/3.2.2/lib/ruby/gems/3.2.0/gems/devise-4.9.4/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1362)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6896)
+Completed 200 OK in 19ms (Views: 10.4ms | ActiveRecord: 3.6ms | Allocations: 9656)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:26:23 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 252)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6511)
+Completed 200 OK in 23ms (Views: 19.6ms | ActiveRecord: 0.0ms | Allocations: 7331)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:26:25 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1410)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1498)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2419)
+
+
+  
+ActionView::Template::Error (undefined method `capaitalize' for :customer:Symbol):
+    1: <h2><%= resource_name&.capaitalize %>Sign up</h2>
+    2: 
+    3: <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    4:   <%= render "devise/shared/error_messages", resource: resource %>
+  
+app/views/devise/registrations/new.html.erb:1
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:28:24 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.8ms | Allocations: 208)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 499)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2346)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 9575)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 10754)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:28:47 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 3.0ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 498)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 2342)
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 8348)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 9529)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:31:14 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 2.6ms | Allocations: 498)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 10.5ms | Allocations: 2350)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 8356)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 9525)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:31:37 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 1.2ms | Allocations: 498)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2352)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 8436)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 9626)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:33:18 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 499)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 12.5ms | Allocations: 2350)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 9575)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.0ms | Allocations: 10767)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:33:21 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.1ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1201)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6750)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 7297)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:34:24 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 498)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 2348)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 9509)
+Completed 200 OK in 27ms (Views: 25.5ms | ActiveRecord: 0.0ms | Allocations: 10703)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:34:35 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 498)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 2347)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 8353)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9529)
+
+
+Started POST "/customers" for 127.0.0.1 at 2024-11-02 10:35:13 +0500
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "customer"=>{"email"=>"zargham@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "customers" WHERE "customers"."email" = $1 LIMIT $2[0m  [["email", "zargham@gmail.com"], ["LIMIT", 1]]
+  [1m[36mCustomer Create (2.5ms)[0m  [1m[32mINSERT INTO "customers" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "zargham@gmail.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2024-11-02 05:35:15.167306"], ["updated_at", "2024-11-02 05:35:15.167306"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 1406ms (ActiveRecord: 11.8ms | Allocations: 13990)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:35:15 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 253)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 32)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6209)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 6826)
+
+
+Started GET "/drivers/sign_up" for 127.0.0.1 at 2024-11-02 10:35:28 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered devise/shared/_links.html.erb (Duration: 0.2ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1202)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 6828)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 7383)
+
+
+Started POST "/drivers" for 127.0.0.1 at 2024-11-02 10:35:54 +0500
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "driver"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDriver Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "drivers" WHERE "drivers"."email" = $1 LIMIT $2[0m  [["email", "test@test.com"], ["LIMIT", 1]]
+  [1m[36mDriver Create (2.0ms)[0m  [1m[32mINSERT INTO "drivers" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "test@test.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2024-11-02 05:35:54.263433"], ["updated_at", "2024-11-02 05:35:54.263433"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 303 See Other in 239ms (ActiveRecord: 3.1ms | Allocations: 6395)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:35:54 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 5870)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6142)
+
+
+Started GET "/customers/sign_up" for 127.0.0.1 at 2024-11-02 10:35:59 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+Redirected to http://127.0.0.1:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.8ms | Allocations: 1903)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:35:59 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 5831)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6098)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:40:13 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1200)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 7217)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.3ms | Allocations: 8035)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:43:34 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1228)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 8404)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.3ms | Allocations: 9220)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateRides (20241102054634)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (232.7ms)[0m  [1m[35mCREATE TABLE "rides" ("id" bigserial primary key, "pickup_location" character varying, "dropoff_location" character varying, "customer_id" bigint NOT NULL, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL, CONSTRAINT "fk_rails_3eb8c79c78"
+FOREIGN KEY ("customer_id")
+  REFERENCES "customers" ("id")
+)[0m
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE INDEX "index_rides_on_customer_id" ON "rides" ("customer_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20241102054634"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:49:17 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 2.6ms | Allocations: 1931)
+  Rendered rides/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 2241)
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 50.2ms | Allocations: 24987)
+Completed 200 OK in 75ms (Views: 52.5ms | ActiveRecord: 7.1ms | Allocations: 30065)
+
+
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 10:49:21 +0500
+Processing by RidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.6ms)[0m  [1m[34mSELECT "rides".* FROM "rides"[0m
+  ↳ app/views/rides/index.html.erb:14
+  Rendered rides/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1161)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6703)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 7103)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:49:30 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.9ms | Allocations: 1211)
+  Rendered rides/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1311)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 6860)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 7140)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:50:37 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 4.6ms | Allocations: 1661)
+  Rendered rides/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1961)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 8046)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 8882)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 10:50:45 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3346)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 9063)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.7ms | Allocations: 9708)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:50:47 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 2.3ms | Allocations: 1212)
+  Rendered rides/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1312)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 6861)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 7145)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:50:48 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 2.1ms | Allocations: 1241)
+  Rendered rides/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1341)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6890)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 7172)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:53:10 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 2.8ms | Allocations: 1401)
+  Rendered rides/new.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1698)
+  Rendered layouts/_alerts.html.erb (Duration: 0.5ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 7706)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 8541)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:58:40 +0500
+  
+SyntaxError (/Users/softaims/Documents/uberClone/app/models/customer.rb:6: syntax error, unexpected ':', expecting `end' or dummy end
+  has_many: rides
+          ^
+):
+  
+app/models/customer.rb:6: syntax error, unexpected ':', expecting `end' or dummy end
+app/models/customer.rb:6: syntax error, unexpected ':', expecting `end' or dummy end
+config/routes.rb:4:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 10:59:42 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 2.4ms | Allocations: 1441)
+  Rendered rides/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1740)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 23339)
+Completed 200 OK in 100ms (Views: 36.2ms | ActiveRecord: 50.6ms | Allocations: 29046)
+
+
+Started POST "/rides" for 127.0.0.1 at 2024-11-02 11:00:13 +0500
+Processing by RidesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "ride"=>{"pickup_location"=>"Softaims XX block phase 3", "dropoff_location"=>"Garden Town"}, "commit"=>"Create Ride"}
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:24:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+  [1m[36mRide Create (43.7ms)[0m  [1m[32mINSERT INTO "rides" ("pickup_location", "dropoff_location", "customer_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["pickup_location", "Softaims XX block phase 3"], ["dropoff_location", "Garden Town"], ["customer_id", 1], ["created_at", "2024-11-02 06:00:14.033524"], ["updated_at", "2024-11-02 06:00:14.033524"]]
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/rides/1
+Completed 302 Found in 95ms (ActiveRecord: 46.0ms | Allocations: 14097)
+
+
+Started GET "/rides/1" for 127.0.0.1 at 2024-11-02 11:00:14 +0500
+Processing by RidesController#show as TURBO_STREAM
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.5ms | Allocations: 200)
+  Rendered rides/show.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1435)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 6971)
+Completed 200 OK in 22ms (Views: 17.5ms | ActiveRecord: 0.2ms | Allocations: 8581)
+
+
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddStatusToRides (20241102060225)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "rides" ADD "status" integer[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20241102060225"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddStatusToRides (20241102060225)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (44.7ms)[0m  [1m[35mALTER TABLE "rides" DROP COLUMN "status"[0m
+  [1m[36mActiveRecord::SchemaMigration Delete All (0.4ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20241102060225"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddStatusToRides (20241102060225)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "rides" ADD "status" integer DEFAULT 0[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20241102060225"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 11:10:25 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RidesController#index as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1040)
+
+
+  
+NameError (undefined local variable or method `progress' for Ride:Class):
+  
+app/models/ride.rb:3:in `<class:Ride>'
+app/models/ride.rb:1:in `<main>'
+app/controllers/rides_controller.rb:6:in `index'
+Started GET "/rides/1/edit" for 127.0.0.1 at 2024-11-02 11:10:25 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 734)
+
+
+  
+NameError (undefined local variable or method `progress' for Ride:Class):
+  
+app/models/ride.rb:3:in `<class:Ride>'
+app/models/ride.rb:1:in `<main>'
+app/controllers/rides_controller.rb:63:in `set_ride'
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 11:10:37 +0500
+Processing by RidesController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 730)
+
+
+  
+NameError (undefined local variable or method `progress' for Ride:Class):
+  
+app/models/ride.rb:3:in `<class:Ride>'
+app/models/ride.rb:1:in `<main>'
+app/controllers/rides_controller.rb:6:in `index'
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 11:10:43 +0500
+Processing by RidesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 731)
+
+
+  
+NameError (undefined local variable or method `progress' for Ride:Class):
+  
+app/models/ride.rb:3:in `<class:Ride>'
+app/models/ride.rb:1:in `<main>'
+app/controllers/rides_controller.rb:6:in `index'
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 11:11:45 +0500
+Processing by RidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.7ms)[0m  [1m[34mSELECT "rides".* FROM "rides"[0m
+  ↳ app/views/rides/index.html.erb:14
+  Rendered rides/_ride.html.erb (Duration: 1.2ms | Allocations: 227)
+  Rendered rides/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 4356)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 38.3ms | Allocations: 25951)
+Completed 200 OK in 46ms (Views: 36.0ms | ActiveRecord: 6.6ms | Allocations: 27887)
+
+
+Started GET "/rides/1" for 127.0.0.1 at 2024-11-02 11:12:23 +0500
+Processing by RidesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/show.html.erb within layouts/application (Duration: 4.0ms | Allocations: 843)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 6376)
+Completed 200 OK in 18ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 7886)
+
+
+Started GET "/rides/1/edit" for 127.0.0.1 at 2024-11-02 11:12:25 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 5.1ms | Allocations: 1478)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1835)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 7381)
+Completed 200 OK in 27ms (Views: 23.6ms | ActiveRecord: 0.2ms | Allocations: 8236)
+
+
+Started GET "/rides/1/edit" for 127.0.0.1 at 2024-11-02 11:12:27 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.5ms | Allocations: 1085)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1232)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 6778)
+Completed 200 OK in 16ms (Views: 13.0ms | ActiveRecord: 0.2ms | Allocations: 7576)
+
+
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 11:12:27 +0500
+Processing by RidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides"[0m
+  ↳ app/views/rides/index.html.erb:14
+  Rendered rides/_ride.html.erb (Duration: 0.4ms | Allocations: 23)
+  Rendered rides/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 993)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 6535)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.2ms | Allocations: 6814)
+
+
+Started GET "/rides/1" for 127.0.0.1 at 2024-11-02 11:12:30 +0500
+Processing by RidesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 617)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 6150)
+Completed 200 OK in 14ms (Views: 10.6ms | ActiveRecord: 0.2ms | Allocations: 6948)
+
+
+Started GET "/rides/1/edit" for 127.0.0.1 at 2024-11-02 11:12:35 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.5ms | Allocations: 1103)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1250)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 6791)
+Completed 200 OK in 16ms (Views: 13.2ms | ActiveRecord: 0.2ms | Allocations: 7589)
+
+
+Started GET "/rides/1" for 127.0.0.1 at 2024-11-02 11:12:37 +0500
+Processing by RidesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.4ms | Allocations: 23)
+  Rendered rides/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 638)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 6172)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.2ms | Allocations: 6970)
+
+
+Started GET "/rides/1" for 127.0.0.1 at 2024-11-02 11:12:39 +0500
+Processing by RidesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/show.html.erb within layouts/application (Duration: 2.1ms | Allocations: 611)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 6144)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.2ms | Allocations: 6943)
+
+
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 11:12:39 +0500
+Processing by RidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides"[0m
+  ↳ app/views/rides/index.html.erb:14
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 993)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 6534)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.2ms | Allocations: 6813)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 11:12:47 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mCustomer Load (2.1ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 16.8ms | Allocations: 3683)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 9402)
+Completed 200 OK in 37ms (Views: 30.6ms | ActiveRecord: 4.5ms | Allocations: 10048)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 11:12:48 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.6ms | Allocations: 1019)
+  Rendered rides/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1247)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6818)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 7168)
+
+
+Started POST "/rides" for 127.0.0.1 at 2024-11-02 11:12:59 +0500
+Processing by RidesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "ride"=>{"pickup_location"=>"Softaims XX block phase 3", "dropoff_location"=>"barkat market"}, "commit"=>"Create Ride"}
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:24:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+  [1m[36mRide Create (0.7ms)[0m  [1m[32mINSERT INTO "rides" ("pickup_location", "dropoff_location", "customer_id", "created_at", "updated_at", "status") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["pickup_location", "Softaims XX block phase 3"], ["dropoff_location", "barkat market"], ["customer_id", 1], ["created_at", "2024-11-02 06:12:59.843756"], ["updated_at", "2024-11-02 06:12:59.843756"], ["status", 0]]
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (40.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/rides/2
+Completed 302 Found in 53ms (ActiveRecord: 42.0ms | Allocations: 4538)
+
+
+Started GET "/rides/2" for 127.0.0.1 at 2024-11-02 11:12:59 +0500
+Processing by RidesController#show as TURBO_STREAM
+  Parameters: {"id"=>"2"}
+  [1m[36mRide Load (0.3ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 657)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6191)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 0.3ms | Allocations: 7035)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 11:34:38 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  [1m[36mRide Load (0.5ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."customer_id" = $1 AND "rides"."status" = $2 ORDER BY "rides"."id" DESC LIMIT $3[0m  [["customer_id", 1], ["status", 0], ["LIMIT", 1]]
+  ↳ app/models/customer.rb:10:in `active_ride'
+  [1m[36mCACHE Ride Load (0.1ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."customer_id" = $1 AND "rides"."status" = $2 ORDER BY "rides"."id" DESC LIMIT $3[0m  [["customer_id", 1], ["status", 0], ["LIMIT", 1]]
+  ↳ app/models/customer.rb:10:in `active_ride'
+  Rendered pages/home.html.erb within layouts/application (Duration: 42.5ms | Allocations: 11870)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 79.7ms | Allocations: 33486)
+Completed 200 OK in 84ms (Views: 73.7ms | ActiveRecord: 8.2ms | Allocations: 34391)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:35:33 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 350)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5917)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 6182)
+
+
+Started GET "/drivers/sign_up" for ::1 at 2024-11-02 11:35:36 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.4ms | Allocations: 208)
+  Rendered devise/shared/_links.html.erb (Duration: 4.8ms | Allocations: 509)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.7ms | Allocations: 2412)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 8113)
+Completed 200 OK in 42ms (Views: 27.6ms | ActiveRecord: 6.6ms | Allocations: 11509)
+
+
+Started POST "/drivers" for ::1 at 2024-11-02 11:36:02 +0500
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "driver"=>{"email"=>"driver@drive.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDriver Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "drivers" WHERE "drivers"."email" = $1 LIMIT $2[0m  [["email", "driver@drive.com"], ["LIMIT", 1]]
+  [1m[36mDriver Create (0.5ms)[0m  [1m[32mINSERT INTO "drivers" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "driver@drive.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2024-11-02 06:36:02.545181"], ["updated_at", "2024-11-02 06:36:02.545181"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 303 See Other in 256ms (ActiveRecord: 3.4ms | Allocations: 6684)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:36:02 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1239)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 6837)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.3ms | Allocations: 7151)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:40:50 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (1.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1447)
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 7462)
+Completed 200 OK in 21ms (Views: 18.4ms | ActiveRecord: 1.3ms | Allocations: 8281)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:40:52 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1098)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 6648)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.2ms | Allocations: 6915)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:47 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.7ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.1ms | Allocations: 1419)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 7434)
+Completed 200 OK in 23ms (Views: 19.6ms | ActiveRecord: 0.7ms | Allocations: 8250)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1104)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6659)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.4ms | Allocations: 6926)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1095)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 6646)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.2ms | Allocations: 6911)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1086)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 6641)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.3ms | Allocations: 6906)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1119)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 6669)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms | Allocations: 6935)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1098)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6648)
+Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.2ms | Allocations: 6913)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:49 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1098)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 6649)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.2ms | Allocations: 6914)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:42:50 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1116)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | Allocations: 6666)
+Completed 200 OK in 23ms (Views: 19.5ms | ActiveRecord: 0.2ms | Allocations: 6931)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:44:26 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1419)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 7434)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.4ms | Allocations: 8253)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:44:27 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1113)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6663)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.3ms | Allocations: 6930)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:44:27 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1080)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6638)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.2ms | Allocations: 6904)
+
+
+Started GET "/drivers/sign_up" for ::1 at 2024-11-02 11:44:29 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 10ms (ActiveRecord: 0.3ms | Allocations: 1578)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:44:29 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1124)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 6680)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.2ms | Allocations: 6947)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:44:36 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1086)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 6637)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms | Allocations: 6902)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:44:55 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1087)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 6637)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 6903)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:45:07 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1104)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 6654)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.2ms | Allocations: 6919)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:46:16 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 287)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 5848)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms | Allocations: 6113)
+
+
+Started GET "/drivers/sign_up" for ::1 at 2024-11-02 11:46:18 +0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 207)
+  Rendered devise/shared/_links.html.erb (Duration: 2.2ms | Allocations: 498)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2351)
+  Rendered layouts/_alerts.html.erb (Duration: 0.2ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 8046)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 8979)
+
+
+Started POST "/drivers" for ::1 at 2024-11-02 11:46:58 +0500
+Processing by Devise::RegistrationsController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "driver"=>{"email"=>"driver1@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mDriver Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "drivers" WHERE "drivers"."email" = $1 LIMIT $2[0m  [["email", "driver1@test.com"], ["LIMIT", 1]]
+  [1m[36mDriver Create (0.3ms)[0m  [1m[32mINSERT INTO "drivers" ("email", "encrypted_password", "reset_password_token", "reset_password_sent_at", "remember_created_at", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["email", "driver1@test.com"], ["encrypted_password", "[FILTERED]"], ["reset_password_token", "[FILTERED]"], ["reset_password_sent_at", "[FILTERED]"], ["remember_created_at", nil], ["created_at", "2024-11-02 06:46:58.902642"], ["updated_at", "2024-11-02 06:46:58.902642"]]
+  [1m[36mTRANSACTION (40.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 303 See Other in 282ms (ActiveRecord: 41.4ms | Allocations: 6200)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:46:58 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1121)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 6740)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms | Allocations: 7055)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:48:44 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (3.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 10.0ms | Allocations: 1423)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 7439)
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 3.4ms | Allocations: 8258)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:48:46 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1107)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 6657)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms | Allocations: 6923)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:48:46 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1113)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6663)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.2ms | Allocations: 6928)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:48:46 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1116)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 6666)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms | Allocations: 6931)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:48:46 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:4
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1119)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 6674)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.3ms | Allocations: 6940)
+
+
+Started GET "/" for ::1 at 2024-11-02 11:51:18 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:13
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1406)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 7448)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.2ms | Allocations: 8267)
+
+
+Started GET "/" for ::1 at 2024-11-02 12:02:44 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (1.1ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:13
+  Rendered pages/home.html.erb within layouts/application (Duration: 63.9ms | Allocations: 6437)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 85.5ms | Allocations: 27969)
+Completed 200 OK in 88ms (Views: 38.5ms | ActiveRecord: 48.5ms | Allocations: 28875)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:02:46 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 91)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 29)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 5899)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 6555)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:06:25 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 91)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 6373)
+Completed 200 OK in 148ms (Views: 50.2ms | ActiveRecord: 0.0ms | Allocations: 7197)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:16:40 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2702)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 24496)
+Completed 200 OK in 101ms (Views: 38.2ms | ActiveRecord: 49.4ms | Allocations: 29350)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:17:47 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 5.6ms | Allocations: 129)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 1101)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 7292)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.2ms | Allocations: 8161)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:17:49 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (8.9ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 6568)
+Completed 200 OK in 22ms (Views: 12.0ms | ActiveRecord: 8.9ms | Allocations: 6881)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:18:29 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.5ms | Allocations: 129)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1106)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 7285)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.2ms | Allocations: 8157)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:14 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.5ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 6556)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.5ms | Allocations: 6868)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:15 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 6515)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.4ms | Allocations: 6826)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:16 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 6500)
+Completed 200 OK in 14ms (Views: 13.3ms | ActiveRecord: 0.2ms | Allocations: 6811)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:16 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 6503)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.2ms | Allocations: 6815)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:16 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 6495)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 0.2ms | Allocations: 6806)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:41 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.8ms | Allocations: 129)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1101)
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 135)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 7303)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.2ms | Allocations: 8176)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:42 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.1ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 6564)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.1ms | Allocations: 6877)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:43 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6505)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.2ms | Allocations: 6816)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:43 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.0ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 6491)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.2ms | Allocations: 6802)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:43 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 6512)
+Completed 200 OK in 23ms (Views: 17.9ms | ActiveRecord: 0.2ms | Allocations: 6823)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:43 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 6512)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.2ms | Allocations: 6823)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:43 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 6488)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.2ms | Allocations: 6800)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:19:44 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:3
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 777)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 6501)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms | Allocations: 6813)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:23:27 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.5ms | Allocations: 128)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1108)
+  Rendered layouts/_alerts.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 8556)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.2ms | Allocations: 9429)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:26:55 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.4ms | Allocations: 129)
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.1ms | Allocations: 13)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1103)
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 8504)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.2ms | Allocations: 9374)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:32:16 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (0.7ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/available_rides/_available_rides.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 7.7ms | Allocations: 4480)
+  [1m[36mCACHE Customer Load (0.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/available_rides/_available_rides.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 1.6ms | Allocations: 665)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 84.5ms | Allocations: 8985)
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 99.7ms | Allocations: 15188)
+Completed 200 OK in 105ms (Views: 43.4ms | ActiveRecord: 58.2ms | Allocations: 16058)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:34:42 +0500
+Processing by AvailableRidesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 821)
+
+
+  
+SyntaxError (/Users/softaims/Documents/uberClone/app/models/ride.rb:4: syntax error, unexpected local variable or method, expecting `end' or dummy end
+  delegate :email to: :customer prefix: true
+                  ^~
+):
+  
+app/models/ride.rb:4: syntax error, unexpected local variable or method, expecting `end' or dummy end
+app/models/ride.rb:4: syntax error, unexpected local variable or method, expecting `end' or dummy end
+app/controllers/available_rides_controller.rb:3:in `index'
+Started GET "/available_rides" for ::1 at 2024-11-02 12:35:38 +0500
+Processing by AvailableRidesController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 820)
+
+
+  
+SyntaxError (/Users/softaims/Documents/uberClone/app/models/ride.rb:4: syntax error, unexpected local variable or method, expecting `end' or dummy end
+  delegate :email to: :customer, prefix: true
+                  ^~
+):
+  
+app/models/ride.rb:4: syntax error, unexpected local variable or method, expecting `end' or dummy end
+app/models/ride.rb:4: syntax error, unexpected local variable or method, expecting `end' or dummy end
+app/controllers/available_rides_controller.rb:3:in `index'
+Started GET "/available_rides" for ::1 at 2024-11-02 12:37:50 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.3ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:4:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 8.8ms | Allocations: 4626)
+  [1m[36mCACHE Customer Load (0.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:4:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 1.3ms | Allocations: 661)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 25.8ms | Allocations: 7831)
+  Rendered layouts/_alerts.html.erb (Duration: 0.4ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 52.7ms | Allocations: 29589)
+Completed 200 OK in 66ms (Views: 48.7ms | ActiveRecord: 9.0ms | Allocations: 31957)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 12:40:57 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (1.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:4:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 4.9ms | Allocations: 943)
+  [1m[36mCACHE Customer Load (0.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:4:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 2.9ms | Allocations: 691)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 2595)
+  Rendered layouts/_alerts.html.erb (Duration: 0.7ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 8775)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 1.9ms | Allocations: 9644)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDriversIdToRide (20241102084710)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "rides" ADD "driver_id" bigint[0m
+  [1m[35m (42.7ms)[0m  [1m[35mCREATE INDEX "index_rides_on_driver_id" ON "rides" ("driver_id")[0m
+  [1m[35m (2.2ms)[0m  [1m[35mALTER TABLE "rides" ADD CONSTRAINT "fk_rails_efe84989e9"
+FOREIGN KEY ("driver_id")
+  REFERENCES "drivers" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (41.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20241102084710"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6053666113922447685)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/available_rides" for ::1 at 2024-11-02 14:08:52 +0500
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 1.6ms | Allocations: 1307)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 3805)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 3894)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.7ms | Allocations: 6240)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 14:09:49 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.3ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 1.4ms | Allocations: 1329)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2239)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2328)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.3ms | Allocations: 3174)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 14:10:59 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.8ms | Allocations: 1329)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2239)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2328)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms | Allocations: 3175)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 14:13:02 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.9ms | Allocations: 1329)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 2239)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2328)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.4ms | Allocations: 3175)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 14:15:24 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.3ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.8ms | Allocations: 1329)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 2239)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2328)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms | Allocations: 3175)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 14:17:42 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 0.9ms | Allocations: 1329)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 2239)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 2328)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.2ms | Allocations: 3175)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 15:13:37 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.5ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/_available_rides.html.erb (Duration: 1.0ms | Allocations: 1329)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 68.4ms | Allocations: 5119)
+  Rendered layout layouts/application.html.erb (Duration: 68.8ms | Allocations: 5208)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 55.0ms | Allocations: 6055)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <div class="w-full p-2 bg-gray-200">
+    <p class="text-lg">
+        Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+        OF User <%= ride.customer_email %> 
+    </p>
+    <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+</div>
+):
+1:    <div class="w-full p-2 bg-gray-200">
+2:        <p class="text-lg">
+3:            Ride from <%= ride.pickup_location %> to <%= ride.dropoff_location %>
+4:            OF User <%= ride.customer_email %> 
+5:        </p>
+6:        <%= link_to "Accept this ride", available_rides_path(ride_id: ride.id), class:"bg-blue-500 p-2 text-lg rounded-lg" data:{turbo_method: :post}%>
+7:    </div>
+  
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/_available_rides.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/available_rides/index.html.erb:5
+app/views/available_rides/index.html.erb:4
+Started GET "/available_rides" for ::1 at 2024-11-02 15:18:03 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 8.8ms | Allocations: 4617)
+  [1m[36mCACHE Customer Load (0.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 4.5ms | Allocations: 742)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 6328)
+  Rendered layouts/_alerts.html.erb (Duration: 0.8ms | Allocations: 132)
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 28098)
+Completed 200 OK in 56ms (Views: 53.3ms | ActiveRecord: 0.9ms | Allocations: 28977)
+
+
+Started POST "/available_rides" for ::1 at 2024-11-02 15:18:06 +0500
+Processing by AvailableRidesController#create as TURBO_STREAM
+  Parameters: {"ride_id"=>"1"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 741)
+
+
+  
+NoMethodError (undefined method `id' for :ride:Symbol):
+  
+app/controllers/available_rides_controller.rb:6:in `create'
+Started GET "/available_rides" for ::1 at 2024-11-02 15:20:27 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 7.9ms | Allocations: 4631)
+  [1m[36mCACHE Customer Load (0.0ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 3.5ms | Allocations: 742)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 8416)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 29797)
+Completed 200 OK in 57ms (Views: 42.6ms | ActiveRecord: 9.4ms | Allocations: 31995)
+
+
+Started POST "/available_rides" for ::1 at 2024-11-02 15:20:29 +0500
+Processing by AvailableRidesController#create as TURBO_STREAM
+  Parameters: {"ride_id"=>"1"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1 AND "rides"."id" = $2 LIMIT $3[0m  [["status", 0], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:6:in `create'
+  [1m[36mDriver Load (0.5ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mCustomer Load (0.8ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mRide Update (2.3ms)[0m  [1m[33mUPDATE "rides" SET "updated_at" = $1, "status" = $2, "driver_id" = $3 WHERE "rides"."id" = $4[0m  [["updated_at", "2024-11-02 10:20:29.847163"], ["status", 1], ["driver_id", 3], ["id", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 25ms (ActiveRecord: 8.9ms | Allocations: 7556)
+
+
+Started GET "/" for ::1 at 2024-11-02 15:20:29 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:13
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1457)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 30)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 7223)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.3ms | Allocations: 7918)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 15:22:06 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (2.7ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (0.9ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 2.6ms | Allocations: 830)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 51.1ms | Allocations: 1517)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 67.8ms | Allocations: 7258)
+Completed 200 OK in 71ms (Views: 65.5ms | ActiveRecord: 3.6ms | Allocations: 7572)
+
+
+Started POST "/available_rides" for ::1 at 2024-11-02 15:22:10 +0500
+Processing by AvailableRidesController#create as TURBO_STREAM
+  Parameters: {"ride_id"=>"2"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1 AND "rides"."id" = $2 LIMIT $3[0m  [["status", 0], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:6:in `create'
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mRide Update (0.4ms)[0m  [1m[33mUPDATE "rides" SET "updated_at" = $1, "status" = $2, "driver_id" = $3 WHERE "rides"."id" = $4[0m  [["updated_at", "2024-11-02 10:22:10.203963"], ["status", 1], ["driver_id", 3], ["id", 2]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 2.5ms | Allocations: 4861)
+
+
+Started GET "/" for ::1 at 2024-11-02 15:22:10 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.2ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:13
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1116)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6670)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.2ms | Allocations: 6940)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 15:22:12 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.7ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 612)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 6334)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.7ms | Allocations: 6647)
+
+
+Started GET "/" for 127.0.0.1 at 2024-11-02 15:22:27 +0500
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:5
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."customer_id" = $1 AND "rides"."status" = $2 ORDER BY "rides"."id" DESC LIMIT $3[0m  [["customer_id", 1], ["status", 0], ["LIMIT", 1]]
+  ↳ app/models/customer.rb:10:in `active_ride'
+  Rendered pages/home.html.erb within layouts/application (Duration: 49.1ms | Allocations: 2847)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered layout layouts/application.html.erb (Duration: 117.8ms | Allocations: 8402)
+Completed 200 OK in 119ms (Views: 118.2ms | ActiveRecord: 0.7ms | Allocations: 8668)
+
+
+Started GET "/rides/new" for 127.0.0.1 at 2024-11-02 15:22:29 +0500
+Processing by RidesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/new.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 3.5ms | Allocations: 1433)
+  Rendered rides/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1734)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 7385)
+Completed 200 OK in 18ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 8123)
+
+
+Started POST "/rides" for 127.0.0.1 at 2024-11-02 15:22:54 +0500
+Processing by RidesController#create as TURBO_STREAM
+  Parameters: {"authenticity_token"=>"[FILTERED]", "ride"=>{"pickup_location"=>"gunjan abad", "dropoff_location"=>"agli gunjan abad"}, "commit"=>"Create Ride"}
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 ORDER BY "customers"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:24:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+  [1m[36mRide Create (41.7ms)[0m  [1m[32mINSERT INTO "rides" ("pickup_location", "dropoff_location", "customer_id", "created_at", "updated_at", "status", "driver_id") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["pickup_location", "gunjan abad"], ["dropoff_location", "agli gunjan abad"], ["customer_id", 1], ["created_at", "2024-11-02 10:22:54.354786"], ["updated_at", "2024-11-02 10:22:54.354786"], ["status", 0], ["driver_id", nil]]
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/rides_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/rides/3
+Completed 302 Found in 53ms (ActiveRecord: 43.6ms | Allocations: 3475)
+
+
+Started GET "/rides/3" for 127.0.0.1 at 2024-11-02 15:22:54 +0500
+Processing by RidesController#show as TURBO_STREAM
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 1.3ms | Allocations: 210)
+  Rendered rides/show.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1199)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 6733)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 0.2ms | Allocations: 8193)
+
+
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 15:22:57 +0500
+Processing by RidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides"[0m
+  ↳ app/views/rides/index.html.erb:14
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered rides/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1552)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 7093)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.2ms | Allocations: 7454)
+
+
+Started GET "/rides/3/edit" for 127.0.0.1 at 2024-11-02 15:22:58 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.3ms | Allocations: 1111)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1409)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 6950)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.2ms | Allocations: 7805)
+
+
+Started GET "/available_rides" for ::1 at 2024-11-02 15:23:03 +0500
+Processing by AvailableRidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering available_rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1[0m  [["status", 0]]
+  ↳ app/views/available_rides/index.html.erb:4
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  Rendered available_rides/_available_rides.html.erb (Duration: 3.5ms | Allocations: 830)
+  Rendered available_rides/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1517)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 7240)
+Completed 200 OK in 23ms (Views: 17.7ms | ActiveRecord: 0.6ms | Allocations: 7552)
+
+
+Started POST "/available_rides" for ::1 at 2024-11-02 15:30:31 +0500
+Processing by AvailableRidesController#create as TURBO_STREAM
+  Parameters: {"ride_id"=>"3"}
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."status" = $1 AND "rides"."id" = $2 LIMIT $3[0m  [["status", 0], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:6:in `create'
+  [1m[36mDriver Load (0.4ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mRide Update (0.7ms)[0m  [1m[33mUPDATE "rides" SET "updated_at" = $1, "status" = $2, "driver_id" = $3 WHERE "rides"."id" = $4[0m  [["updated_at", "2024-11-02 10:30:31.728375"], ["status", 1], ["driver_id", 3], ["id", 3]]
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/available_rides_controller.rb:7:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 24ms (ActiveRecord: 9.8ms | Allocations: 7712)
+
+
+Started GET "/" for ::1 at 2024-11-02 15:30:31 +0500
+Processing by PagesController#home as TURBO_STREAM
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mDriver Load (0.3ms)[0m  [1m[34mSELECT "drivers".* FROM "drivers" WHERE "drivers"."id" = $1 ORDER BY "drivers"."id" ASC LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/pages/home.html.erb:13
+  [1m[36mRide Load (0.3ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."driver_id" = $1 AND "rides"."status" = $2 ORDER BY "rides"."id" DESC LIMIT $3[0m  [["driver_id", 3], ["status", 1], ["LIMIT", 1]]
+  ↳ app/models/driver.rb:9:in `active_ride'
+  [1m[36mCACHE Ride Load (0.0ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."driver_id" = $1 AND "rides"."status" = $2 ORDER BY "rides"."id" DESC LIMIT $3[0m  [["driver_id", 3], ["status", 1], ["LIMIT", 1]]
+  ↳ app/models/driver.rb:9:in `active_ride'
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/ride.rb:5:in `customer_email'
+  [1m[36mCACHE Ride Load (0.0ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."driver_id" = $1 AND "rides"."status" = $2 ORDER BY "rides"."id" DESC LIMIT $3[0m  [["driver_id", 3], ["status", 1], ["LIMIT", 1]]
+  ↳ app/models/driver.rb:9:in `active_ride'
+  Rendered pages/home.html.erb within layouts/application (Duration: 13.9ms | Allocations: 5734)
+  Rendered layouts/_alerts.html.erb (Duration: 0.6ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 11880)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.8ms | Allocations: 12749)
+
+
+Started GET "/rides/3/edit" for 127.0.0.1 at 2024-11-02 15:30:43 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 3.6ms | Allocations: 1457)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1827)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 27)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 7517)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.2ms | Allocations: 8624)
+
+
+Started GET "/rides" for 127.0.0.1 at 2024-11-02 15:30:43 +0500
+Processing by RidesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering rides/index.html.erb within layouts/application
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides"[0m
+  ↳ app/views/rides/index.html.erb:14
+  Rendered rides/_ride.html.erb (Duration: 2.6ms | Allocations: 205)
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered rides/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1816)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 7379)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.2ms | Allocations: 7739)
+
+
+Started GET "/rides/3" for 127.0.0.1 at 2024-11-02 15:30:49 +0500
+Processing by RidesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/show.html.erb within layouts/application
+  Rendered rides/_ride.html.erb (Duration: 0.1ms | Allocations: 23)
+  Rendered rides/show.html.erb within layouts/application (Duration: 3.1ms | Allocations: 829)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 6362)
+Completed 200 OK in 15ms (Views: 11.9ms | ActiveRecord: 0.2ms | Allocations: 7242)
+
+
+Started GET "/rides/3/edit" for 127.0.0.1 at 2024-11-02 15:30:51 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.4ms | Allocations: 1079)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1226)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6767)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.2ms | Allocations: 7567)
+
+
+Started GET "/rides/3/edit" for 127.0.0.1 at 2024-11-02 15:30:53 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.2ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.7ms | Allocations: 1073)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 2.3ms | Allocations: 1220)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6762)
+Completed 200 OK in 15ms (Views: 11.8ms | ActiveRecord: 0.2ms | Allocations: 7562)
+
+
+Started GET "/rides/3/edit" for 127.0.0.1 at 2024-11-02 15:30:54 +0500
+Processing by RidesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRide Load (0.4ms)[0m  [1m[34mSELECT "rides".* FROM "rides" WHERE "rides"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/rides_controller.rb:63:in `set_ride'
+  Rendering layout layouts/application.html.erb
+  Rendering rides/edit.html.erb within layouts/application
+  Rendered rides/_form.html.erb (Duration: 1.4ms | Allocations: 1067)
+  Rendered rides/edit.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1214)
+  Rendered layouts/_alerts.html.erb (Duration: 0.1ms | Allocations: 22)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 6755)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.4ms | Allocations: 7555)
+
+
